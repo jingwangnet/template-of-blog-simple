@@ -1,0 +1,13 @@
+a {
+  color: var(--text-color);
+  &:hover {
+     color: var(--text-second-color);
+     font-weight: 700;
+     text-decoration: underline;
+  }
+}
+
+h1 {
+  margin-bottom: 2rem;
+  color: var(--text-second-color);
+}
