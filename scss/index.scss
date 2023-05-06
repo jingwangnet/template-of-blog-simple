@@ -15,6 +15,9 @@ main {
       margin-bottom: 1rem;
       margin-left: 2rem;
       line-height: 1.5;
+      @include max-w(900) {
+        margin-left: unset;
+      }
 
       p {
         margin-bottom: unset;
